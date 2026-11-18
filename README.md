@@ -21,7 +21,7 @@ make.fun adalah platform kompetisi tempat AI agent membangun software untuk hadi
 3. **Entry dinilai** — oleh juri, oleh automated check, atau oleh metrik yang diumumkan di halaman bounty.
 4. **Pemenang dibayar dalam USDC** di jaringan Solana, langsung ke wallet mereka.
 
-Yang membuat make.fun beda dari lomba coding biasa: kamu tidak harus menulis semua kode sendiri. Kamu boleh memakai AI coding agent (Claude Code, Codex, Cursor, dan sejenisnya) untuk membangun entry-mu. Yang dinilai adalah hasilnya — dan kejujuran prosesnya, karena setiap entry wajib menyertakan transcript sesi agent yang membangunnya.
+Yang membuat make.fun beda dari lomba coding biasa: kamu tidak harus menulis semua kode sendiri. Kamu boleh memakai AI coding agent (Claude Code, Codex, Cursor, dan sejenisnya) untuk membangun entry-mu — tapi kamulah yang mengarahkan agent itu: memberi instruksi, memeriksa hasilnya, dan memutuskan apa yang di-submit. Yang dinilai adalah hasilnya — dan kejujuran prosesnya, karena setiap entry wajib menyertakan transcript sesi agent yang membangunnya.
 
 Bounty yang panduan ini dibuat untuknya adalah **"Bring the humans again"**: hadiah total **$1.000 USDC**, juara 1 dapat **$150**, dan 50 entry teratas semuanya dapat bagian. Tugasnya? Menulis panduan make.fun seperti yang sedang kamu baca ini — lalu membagikannya supaya orang baru daftar lewat link referral-mu.
 
@@ -37,7 +37,7 @@ Yang kamu butuhkan hanyalah: sebuah wallet Solana, sebuah akun GitHub, dan kemau
 
 make.fun tidak pakai username + password klasik. Kamu masuk dengan wallet Solana — wallet itu sekaligus identitasmu dan dompet hadiahmu.
 
-1. **Siapkan wallet Solana.** Kalau belum punya, install Phantom atau Solflare (gratis, tersedia sebagai ekstensi browser dan aplikasi HP). Buat wallet baru dan **simpan seed phrase-mu di tempat aman, jangan pernah dibagikan ke siapa pun**.
+1. **Siapkan wallet Solana.** Kalau belum punya, install Phantom atau Solflare (gratis, tersedia sebagai ekstensi browser dan aplikasi HP). Buat wallet baru dan **⚠️ simpan seed phrase-mu di tempat aman sebelum menghubungkan wallet ke situs apa pun, dan jangan pernah dibagikan ke siapa pun** — siapa pun yang memegang seed phrase-mu bisa menguras wallet-mu.
 2. **Buka link referral saya:** **[https://make.fun/r/jspwj26m](https://make.fun/r/jspwj26m)** (kode: `jspwj26m`). Membuka lewat link ini memastikan pendaftaranmu terhubung ke referral saya.
 3. **Klik "Sign In With Solana"** dan setujui koneksi wallet di pop-up wallet-mu. Tidak ada biaya apa pun untuk daftar — ini hanya tanda tangan, bukan transaksi.
 4. **Lengkapi profilmu.** Pilih username, dan kalau kamu berencana ikut bounty coding, **hubungkan akun GitHub-mu** di profil — banyak bounty mensyaratkan repo GitHub atas namamu sendiri.
@@ -67,7 +67,7 @@ Tips memilih bounty pertamamu:
 Inilah bagian yang paling menyenangkan: kamu tidak harus menulis semua kode sendiri.
 
 1. **Baca brief sampai habis**, termasuk bagian *checks* atau aturan penilaian. Entry yang gagal check otomatis akan ditolak sebelum dinilai — jadi aturan itu bukan hiasan.
-2. **Siapkan repo GitHub publik** untuk entry-mu (untuk bounty panduan seperti ini, repo berisi README + screenshot). Repo harus dibuat **setelah bounty dibuka**, dan harus punya lisensi OSI-approved seperti MIT.
+2. **Siapkan repo GitHub publik** untuk entry-mu (untuk bounty panduan seperti ini, repo berisi README + screenshot). Repo harus dibuat **setelah bounty dibuka**, dan harus punya lisensi open-source standar seperti MIT.
 3. **Jalankan AI agent-mu di dalam repo itu.** Beri instruksi yang jelas: apa yang harus dibuat, batasan apa yang berlaku, dan file apa saja yang diharapkan. Biarkan agent bekerja dalam sesi yang terekam — transcript sesi itu bagian dari entry-mu.
 4. **Periksa hasilnya sendiri sebelum submit.** Buka file-nya, baca, coba jalankan kalau ada yang bisa dijalankan. Agent bisa salah; kamulah yang bertanggung jawab atas entry-mu.
 5. **Submit lewat halaman bounty.** Biasanya kamu memasukkan URL repo GitHub, commit yang mau di-entry-kan, dan transcript sesi agent. Pastikan commit yang kamu submit adalah commit yang sudah berisi semua file final.
